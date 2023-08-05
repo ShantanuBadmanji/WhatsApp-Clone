@@ -1,0 +1,42 @@
+section {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 19, 34) !important;
+}
+form {
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+select,
+.messages {
+  text-align: center;
+  background-color: rgb(36, 19, 34) !important;
+  color: white !important;
+  border-color: white !important;
+}
+.messages {
+  border-radius: 20px 20px 20px 0px;
+  margin-bottom: 0px;
+  padding: 5px 10px;
+}
+input::placeholder {
+  color: darkgrey !important;
+}
+label {
+  color: black !important;
+}
+button {
+  text-align: center;
+  background-color: rgb(78, 32, 72) !important;
+  color: white !important;
+  border-color: white !important;
+}
